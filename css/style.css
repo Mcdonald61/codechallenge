@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.firstcon{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    padding: 5px;
+ 
+}
+.git{
+    margin-bottom: 12px;
+    padding-left: 15px;
+}
+.searchbox{
+    margin: 12px;
+    margin-top: 12p;
+    margin-left: 20px;
+  
+}
+
+input{
+    background-color:rgb(26, 25, 25);
+    border-radius: 5px;
+    border-top-width: 2px;
+    border-bottom-width: 3px;
+    border-color: rgb(37, 36, 36);;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    color: white;
+    /* outline: ; */
+    bottom: 30%;
+}
+.searchpanel{
+    z-index: 7;
+    margin-top: 5px;
+    position: relative;
+    left: 92%;
+    top: 19%;
+   
+}
+.links{
+    display: flex;
+  margin-top: 1%;
+}
+
+.links
+a:link, a:visited {
+text-decoration: none;
+color: white;
+font-weight: bolder;
+}
+.link1{
+    margin: 10px;
+    width: 90px;
+}
+.link{
+    margin: 10px;
+}
+
+.lastend{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 52%;
+}
+.pic{
+    border-radius: 250%;
+    margin-top: -1%;
+}
+.iconlast{
+    padding-left: 7px;
+    margin-bottom: 30%;
+    padding-right: 15px
+}
+nav{
+    position: fixed;
+    top: 96px;
+    display: flex;
+    padding-top: 2%;
+    /* padding-bottom: 1%; */
+    padding-left: 50%;
+    padding-right: 50%;
+    box-shadow: 1px 2px 4px rgba(73, 68, 68, 0.434);
+    
+    
+    
+}
+.over{
+    margin-right: 30%;
+    position: relative;
+    right: 100%;
+}
+.over
+a:visited {
+color: black;
+}
+.over
+a:link{
+text-decoration: none;
+}
+
+.repo{
+    position: relative;
+    right: 100%;
+  
+ 
+}
+.repo{
+    border-bottom: 4px solid orange;
+    padding-bottom: 12px;
+  
+}
+.repo
+a:visited {
+    
+color: black;
+}
+.repo
+a:link{
+    font-weight: bolder;
+text-decoration: none;   
+
+}
+.project{
+    position: relative;
+    right: 70%;
+}
+.project
+a:visited {
+    
+color: black;
+}
+.project
+a:link{
+text-decoration: none;
+}
+.pack{
+    margin-left: 20%;
+    position: relative;
+    right: 60%;
+}
+.pack
+a:visited {
+    
+color: black;
+}
+.pack
+a:link{
+text-decoration: none;
+}
+.smallbook{
+    position: absolute;
+    left: -40%;
+    top: 2px;
+}
+.repos{
+    position: absolute;
+    left: -30%;
+    top: 2px;     
+}
+.projs{
+    position: absolute;
+    left: -45%;
+    top: 2px; 
+}
+.package{
+    position: absolute;
+    left: -45%;
+    top: 2px; 
+}
+.no{
+    background-color: rgb(209, 201, 201);
+    margin-left: 6%;
+    padding: 4%;
+    border-radius: 12px;
+}
+.mypic{
+    border-radius: 400%;
+    position: absolute;
+    left: 16%;
+    border: 3px solid rgb(236, 230, 230);
+    top: 12%;
+}
+.emoji{
+   position: relative;
+   top: 2px;
+}
+.cool{
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+    padding: 7px;
+    border: 3px solid rgb(236, 230, 230);
+    top: 254px;
+    left: 28%;
+}
+.mac{
+    position: relative;
+    font-size: 25px;
+    top: 310px;
+    left: 16%;
+    color: rgb(95, 92, 92);
+}
+#profile{
+    position: relative;
+    /* font-size: 25px; */
+    top: 322px;
+    left: 16%;
+    padding: 10px;
+    width: 16%;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(236, 230, 230);
+}
+.follow{
+    position: relative;
+    /* font-size: 25px; */
+    top: 340px;
+    left: 16%;
+    width: 16%;
+    border-bottom: 4px solid orange;
+    padding-bottom: 25px;
+}
+.group{
+    position: relative;
+    top: 2px;
+}
+.group1{
+    position: relative;
+    top: 3px;
+}
+.follower{
+    color: gray;
+}
