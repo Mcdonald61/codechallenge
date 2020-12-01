@@ -2,6 +2,14 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    overflow-x: hidden;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99g9;
+}
 .firstcon{
     background-color: rgb(26, 25, 25);
     display: flex;
@@ -107,8 +115,11 @@ text-decoration: none;
  
 }
 .repo{
+    padding-bottom: 12px
+}
+.active{
     border-bottom: 4px solid orange;
-    padding-bottom: 12px;
+    padding-bottom: 12px
   
 }
 .repo
@@ -337,13 +348,7 @@ position: relative;
     margin-left: 10px;
     bottom: 3px;
 }
-.repositories{
-    border-top: 1px solid rgb(226, 219, 219);
-    width: 58%;
-    position: absolute;
-    left: 34%;
-    top: 25%
-}
+
 .copyofreg{
     background-color: white;
     height: 40px;
@@ -364,7 +369,27 @@ position: relative;
     left: 34%;
     padding-bottom: 4%;
     width: 58%;
-    border-bottom: 1px solid rgb(226, 219, 219);
+    /* border-bottom: 1px solid rgb(226, 219, 219); */
+}
+.repositories{
+    /* border-top: 1px solid rgb(226, 219, 219); */
+    width: 75%;
+    position: relative;
+    left: 20%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    top: -70px;
+}
+.repositories-details{
+    display: flex;
+}
+.repo-star{
+    margin-left: auto;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 10em;
 }
 .tomato{
     background-color: tomato;
